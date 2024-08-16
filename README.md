@@ -1,6 +1,6 @@
 # UniSat API Client
 
-[中文文档](#) 
+[中文文档](https://github.com/IceHugh/unisat-api/README_ZH.md) 
 
 [![NPM version](https://img.shields.io/npm/v/unisat-api.svg)](https://www.npmjs.com/package/unisat-api)
 [![License](https://img.shields.io/npm/l/unisat-api.svg)](https://github.com/IceHugh/unisat-api/blob/main/LICENSE)
