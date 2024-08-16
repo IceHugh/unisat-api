@@ -1,10 +1,10 @@
 {
-  "name": "unisat-api-client",
-  "version": "1.0.0",
+  "name": "unisat-api",
+  "version": "1.1.0",
   "author": "IceHugh",
   "repository": {
     "type": "git",
-    "url": "https://github.com/IceHugh/unisat-api-client"
+    "url": "git+https://github.com/IceHugh/unisat-api.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
