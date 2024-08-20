@@ -110,6 +110,10 @@ class TransactionClient {
   async getUtxoInfo(txid: string, index: string): Promise<ApiResponse<UTXO>> {
     return this.client.get(`/v1/indexer/utxo/${txid}/${index}`);
   }
+
+  async pushTx(data: { txHex: string }): Promise<ApiResponse<string>> {
+    return this.client.post('/v1/indexer/local_pushtx', data);
+  }
 }
 
 export default TransactionClient;
